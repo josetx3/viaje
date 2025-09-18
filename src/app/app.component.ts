@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
 
   calcularTiempoRestante() {
     const ahora = new Date();
-    const destino = new Date(ahora.getFullYear(), 8, 19, 0, 0, 0); // 8 = septiembre
+    const destino = new Date(ahora.getFullYear(), 8, 19, 20, 0, 0); // 8 = septiembre
 
     if (ahora > destino) {
       this.diasRestantes = 0;
